@@ -1,0 +1,21 @@
+include components/_head
+html(lang="es")
+    +head({
+        metas: {
+            "viewport": "width=device-width"
+        },
+        title: "Ministerio de Fomento Despacho de Buques",
+        css: [
+            "../bower_components/jquery-ui/themes/ui-lightness/jquery-ui"
+        ],
+        js: [
+            "../bower_components/jquery/dist/jquery",
+            "../bower_components/jquery-ui/jquery-ui"
+        ]
+    })
+        script
+    body
+        main.main.container
+            select(data-jq-init="selectmenu")
+                option One
+                option Two

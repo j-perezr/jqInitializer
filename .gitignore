@@ -1,0 +1,12 @@
+# IntelliJ project files
+/.idea
+/*.iml
+
+/node_modules/
+/dist/
+/bower_components/
+/.tscache/
+/typings/
+/tscommand-631525ec.tmp.txt
+/**/.baseDir.ts
+/**/.baseDir.js

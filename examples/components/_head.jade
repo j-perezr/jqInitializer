@@ -1,0 +1,16 @@
+mixin head(params)
+    head
+        if(params.ie)
+            meta(http-equiv="X-UA-Comptaible",content="IE="+params.ie)
+        meta(charset=params.charset || "utf-8")
+
+        each content, meta in params.metas
+            meta(name=meta, content=content)
+        title=params.title
+        if(params.css)
+            each css in params.css
+                link(rel="stylesheet", href=css+".css")
+        if(params.js)
+            each js in params.js
+                script(type="text/javascript", src=js+".js")
+        block

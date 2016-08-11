@@ -1,0 +1,31 @@
+{
+  "name": "jqInitializer",
+  "homepage": "https://github.com/jperezruiz/jqInitializer",
+  "authors": [
+    "Javier Pérez Ruiz"
+  ],
+  "description": "Powerfull and simple plugin to initialize any jquery plugin by data-* attributes.",
+  "main": "dist/jqInitializer.js",
+  "moduleType": [],
+  "keywords": [
+    "jquery initializer",
+    "widgets",
+    "javascript",
+    "browser"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "#^2.2.2",
+    "angular":"#^1.4.x"
+  },
+  "devDependencies": {
+    "jquery-ui": "jqueryui#^1.11.4"
+  }
+}
